@@ -11,6 +11,32 @@ body{
 .secondary-color{
     color: #FF8367;
 }
+.nav-bar{
+    /* border: 1px solid red; */
+    padding: 0px;
+    margin: 0px;
+
+}
+
+.nav-bar a{
+    font-family: roboto;
+    text-decoration: none;
+    color: rgb(51, 51, 51);
+    letter-spacing: 2px;
+    font-weight: 700;
+}
+.nav-bar ul{
+    margin-right: 150px;
+   
+}
+.nav-bar ul li{
+    float: right;
+    list-style-type: none;
+    padding: 0px 20px;
+   
+    
+    
+}
 
 .link-btn{
     text-decoration: none;
@@ -36,7 +62,7 @@ h1{
 }
 p{
     font-family: poppins;
-    font-size: 16px;
+    font-size: 20px;
     text-align: justify;
     color: dimgray;
 }
@@ -71,9 +97,11 @@ section{
     background-color:#f6f6f6;
     height: 500px;
 }
-.lastet h1{
+.lastet h2{
     text-align: center;
+    font-size: 60px;
     margin-bottom: 80px;
+    letter-spacing: 1.5px;
 }
 .one-third-width{
     float: left;
@@ -121,13 +149,16 @@ section{
    font-size: 40px;
     color: white;
     margin: 70px 60px;
+    letter-spacing: 2px;
 }
 
 .second {
     margin-top: 40px;
 }
-.second h1{
+.second h2{
+    font-size: 40px;
     text-align: center;
+    letter-spacing: 1.5px;
 }
 .second p{
 text-align: center;   
